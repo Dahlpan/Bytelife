@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
 			if GetDistanceBetweenCoords(myCoords, v.x, v.y, v.z, true) <= 200 then
 				sleep = false
 				ClearAreaOfPeds(v.x, v.y, v.z, v.r, 1)
-                ClearAreaOfVehicles(v.x, v.y, v.z, v.r, 1)
+                		ClearAreaOfVehicles(v.x, v.y, v.z, v.r, 1)
 			end
 		end
 
