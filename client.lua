@@ -11,7 +11,7 @@ Citizen.CreateThread(function()
 			if GetDistanceBetweenCoords(myCoords, v.x, v.y, v.z, true) <= 200 then
 				sleep = false
 				ClearAreaOfPeds(v.x, v.y, v.z, v.r, true)
-               			ClearAreaOfVehicles(v.x, v.y, v.z, v.r, true)
+               	ClearAreaOfVehicles(v.x, v.y, v.z, v.r, true)
 				AddDispatchSpawnBlockingArea(v.x, v.y, v.z, v.r)
 			end
 		end
