@@ -1,1 +1,11 @@
-test
+Simple script that removes PED and Vehicle from areas.
+
+Install:
+1. Add script to your resource folder
+2. In servercfg type "Ensure Bytelife-ClearArea"
+
+Add new area:
+1. In chat type /vector3 and replace X, Y, Z in the top
+2. Add radius
+
+Feel free to modify it if you want.
