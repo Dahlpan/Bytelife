@@ -21,4 +21,4 @@ Citizen.CreateThread(function()
 			Citizen.Wait(12500)
 		end
     end
-end)
+end)x
