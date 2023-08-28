@@ -1,5 +1,5 @@
 local AreasToClear = {
-	{x = -1235.54, y = 833.6, z = 192.89, r = 30.00}, --Change z, y, z & r
+	{x = -1235.54, y = 833.6, z = 192.89, r = 30.00}, --X, Y, Z = Vector3 and R = Radius
 }
 
 Citizen.CreateThread(function()
